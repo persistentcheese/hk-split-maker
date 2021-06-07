@@ -155,30 +155,30 @@ import SoulTyrantP from "./Boss/SoulMaster.png";
 import PureVesselP from "./Boss/PureVessel.png";
 import NoskHornetP from "./Boss/Nosk.png";
 import NightmareKingGrimmP from "./Boss/NightmareKingGrimm.png";
-/*
-import Hegemol from "./Dreamer/Hegemol.png";
+import Hegemol from "./Dreamer/Herrah.png";
 import Lurien from "./Dreamer/Lurien.png";
 import Monomon from "./Dreamer/Monomon.png";
-import Dreamer1 from "./Dreamer/Dreamer1.png";
-import Dreamer2 from "./Dreamer/Dreamer2.png";
-import Dreamer3 from "./Dreamer/Dreamer3.png";
-import PreGrimmShop from "./Event/PreGrimmShop.png";
-import CanOvercharm from "./Event/CanOvercharm.png";
-import UnchainedHollowKnight from "./Event/UnchainedHollowKnight.png";
-import WatcherChandelier from "./Event/WatcherChandelier.png";
-import CityGateOpen from "./Event/CityGateOpen.png";
-import FlowerQuest from "./Event/FlowerQuest.png";
-import FlowerRewardGiven from "./Event/FlowerRewardGiven.png";
-import HappyCouplePlayerDataEvent from "./Event/HappyCouplePlayerDataEvent.png";
-import AllCharmNotchesLemm2CP from "./Event/AllCharmNotchesLemm2CP.png";
-import NailsmithKilled from "./Event/NailsmithKilled.png";
-import NailsmithSpared from "./Event/NailsmithSpared.png";
-import NightmareLantern from "./Event/NightmareLantern.png";
-import NightmareLanternDestroyed from "./Event/NightmareLanternDestroyed.png";
-import HollowKnightDreamnail from "./Event/HollowKnightDreamnail.png";
-import SeerDeparts from "./Event/SeerDeparts.png";
-import SpiritGladeOpen from "./Event/SpiritGladeOpen.png";
-import BeastsDenTrapBench from "./Event/BeastsDenTrapBench.png";
+import Dreamer1 from "./Dreamer/Dreamer.png";
+import Dreamer2 from "./Dreamer/Dreamer.png";
+import Dreamer3 from "./Dreamer/Dreamer.png";
+import PreGrimmShop from "./Boss/TroupeMasterGrimm.png";
+import CanOvercharm from "./Achievement/Charmed.png";
+import UnchainedHollowKnight from "./Boss/HollowKnightBoss.png";
+import WatcherChandelier from "./Misc/WatcherChandelier.png";
+import CityGateOpen from "./Item/CityKey.png";
+import FlowerQuest from "./Item/DelicateFlower.png";
+import FlowerRewardGiven from "./Item/DelicateFlower.png";
+import HappyCouplePlayerDataEvent from "./Achievement/HappyCouple.png";
+import AllCharmNotchesLemm2CP from "./Misc/Lemm.png";
+import NailsmithKilled from "./Achievement/Purity.png";
+import NailsmithSpared from "./Achievement/HappyCouple.png";
+import NightmareLantern from "./Misc/Flame.png";
+import NightmareLanternDestroyed from "./Achievement/Banishment.png";
+import HollowKnightDreamnail from "./Boss/HollowKnightBoss.png";
+import SeerDeparts from "./Achievement/Ascension.png";
+import SpiritGladeOpen from "./Achievement/Attunement.png";
+import BeastsDenTrapBench from "./Misc/Bench.png";
+/*
 import ColosseumBronze from "./Trial/ColosseumBronze.png";
 import ColosseumSilver from "./Trial/ColosseumSilver.png";
 import ColosseumGold from "./Trial/ColosseumGold.png";
@@ -302,13 +302,15 @@ import ThornsOfAgony from "./Charm/ThornsOfAgony.png";
 import VoidHeart from "./Charm/VoidHeart.png";
 import WaywardCompass from "./Charm/WaywardCompass.png";
 import Weaversong from "./Charm/Weaversong.png";
-import NotchShrumalOgres from "./Charm Notch/NotchShrumalOgres.png";
-import NotchFogCanyon from "./Charm Notch/NotchFogCanyon.png";
-import NotchGrimm from "./Charm Notch/NotchGrimm.png";
-import NotchSalubra1 from "./Charm Notch/NotchSalubra1.png";
-import NotchSalubra2 from "./Charm Notch/NotchSalubra2.png";
-import NotchSalubra3 from "./Charm Notch/NotchSalubra3.png";
-import NotchSalubra4 from "./Charm Notch/NotchSalubra4.png";
+*/
+import NotchShrumalOgres from "./Item/CharmNotch.png";
+import NotchFogCanyon from "./Item/CharmNotch.png";
+import NotchGrimm from "./Item/CharmNotch.png";
+import NotchSalubra1 from "./Item/CharmNotch.png";
+import NotchSalubra2 from "./Item/CharmNotch.png";
+import NotchSalubra3 from "./Item/CharmNotch.png";
+import NotchSalubra4 from "./Item/CharmNotch.png";
+/*
 import MetGreyMourner from "./NPC/MetGreyMourner.png";
 import GreyMournerSeerAscended from "./NPC/GreyMournerSeerAscended.png";
 import Lemm2 from "./NPC/Lemm2.png";
@@ -570,7 +572,6 @@ export default {
     PureVesselP,
     NoskHornetP,
     NightmareKingGrimmP,
-    /*
     Hegemol,
     Lurien,
     Monomon,
@@ -594,6 +595,7 @@ export default {
     SeerDeparts,
     SpiritGladeOpen,
     BeastsDenTrapBench,
+/*
     ColosseumBronze,
     ColosseumSilver,
     ColosseumGold,
@@ -717,6 +719,7 @@ export default {
     VoidHeart,
     WaywardCompass,
     Weaversong,
+*/
     NotchShrumalOgres,
     NotchFogCanyon,
     NotchGrimm,
@@ -724,6 +727,7 @@ export default {
     NotchSalubra2,
     NotchSalubra3,
     NotchSalubra4,
+/*
     MetGreyMourner,
     GreyMournerSeerAscended,
     Lemm2,
@@ -827,5 +831,5 @@ export default {
     PathOfPainTransition3,
     DgateKingdomsEdgeAcid,
     SoulMasterEncountered,
-    */
+*/
 };

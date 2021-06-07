@@ -123,6 +123,10 @@ const NEW_ID_MAP = {
     "SoulTyrant": "SoulMaster",
     "MegaMossCharger": "MassiveMossCharger",
     "OroMatoNailBros": "MatoOroNailBros",
+    "Dreamer1": "Dreamer",
+    "Dreamer2": "Dreamer",
+    "Dreamer3": "Dreamer",
+    "Hegemol": "Herrah"
 };
 
 function getUrl(id, qualifier) {
@@ -140,6 +144,33 @@ function getUrl(id, qualifier) {
         if (match) {
             return getUrl(match.groups.name, "Boss");
         }
+    }
+
+    if (qualifier === "Charm Notch") {
+        return getUrl("CharmNotch", "Item");
+    }
+
+    if (qualifier === "Event") {
+        switch (id) {
+            case "PreGrimmShop": return getUrl("TroupeMasterGrimm", "Boss");
+            case "CanOvercharm": return getUrl("Charmed", "Achievement");
+            case "UnchainedHollowKnight": return getUrl("HollowKnightBoss", "Boss");
+            case "WatcherChandelier": return getUrl("WatcherChandelier", "Misc");
+            case "CityGateOpen": return getUrl("CityKey", "Item");
+            case "FlowerQuest": return getUrl("DelicateFlower", "Item");
+            case "FlowerRewardGiven": return getUrl("DelicateFlower", "Item");
+            case "HappyCouplePlayerDataEvent": return getUrl("HappyCouple", "Achievement");
+            case "AllCharmNotchesLemm2CP": return getUrl("Lemm", "Misc");
+            case "NailsmithKilled": return getUrl("Purity", "Achievement");
+            case "NailsmithSpared": return getUrl("HappyCouple", "Achievement");
+            case "NightmareLantern": return getUrl("Flame", "Misc");
+            case "NightmareLanternDestroyed": return getUrl("Banishment", "Achievement");
+            case "HollowKnightDreamnail": return getUrl("HollowKnightBoss", "Boss");
+            case "SeerDeparts": return getUrl("Ascension", "Achievement");
+            case "SpiritGladeOpen": return getUrl("Attunement", "Achievement");
+            case "BeastsDenTrapBench": return getUrl("Bench", "Misc");
+        }
+
     }
 
     let newId = NEW_ID_MAP[id] || id;
